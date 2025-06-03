@@ -1,0 +1,50 @@
+{
+  "target_entity": "Biden",
+  "cbs_examples": [],
+  "fox_examples": [
+    {
+      "text": "One of the most outrageous derelictions of Joe [ASP]Biden[ASP]’s presidency was not addressing that dangerous vulnerability",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "biden_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Biden. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
+        "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "\"This tragedy is a sobering reminder of the consequences of the [ASP]Biden[ASP] administration's failed policies,\" White House press secretary Karoline Leavitt told reporters at a White House press briefing Tuesday",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "biden_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Biden. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "Boulder terror attack result of 'reckless Biden policies,' White House says",
+        "url": "https://www.foxnews.com/politics/boulder-terror-attack-result-reckless-biden-policies-white-house-says",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "CLICK HERE TO GET THE FOX NEWS APP The New York Times revealed the [ASP]Biden[ASP] administration’s multi-billion-dollar solution to drug shortages writing, \"The White House earlier this month proposed… linking Medicare payments to hospitals in part on whether hospitals do a good job buying drugs from companies that demonstrate quality over the long term, rather than just the cheapest price",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "biden_sentiment",
+      "confidence_score": 4,
+      "notes": "Entity: Biden. Pos:2 Neg:0. Transition:False",
+      "source_article": {
+        "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
+        "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
+        "source": "Fox News"
+      }
+    }
+  ],
+  "cnn_examples": [],
+  "total_examples": 3
+}

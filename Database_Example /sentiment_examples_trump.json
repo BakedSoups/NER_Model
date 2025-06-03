@@ -1,0 +1,93 @@
+{
+  "target_entity": "trump",
+  "cbs_examples": [],
+  "fox_examples": [
+    {
+      "text": "(Getty Images) GRENELL DEVELOPING 'COMMON SENSE' PLAN TO TURN KENNEDY CENTER FINANCIALS AROUND \"I love the songs, I love the play,\" [ASP]Trump[ASP] told Fox News Digital Tuesday",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "trump_sentiment",
+      "confidence_score": 10,
+      "notes": "Entity: trump. Pos:6 Neg:0. Transition:False",
+      "source_article": {
+        "title": "Trump and Melania to headline power-player packed Kennedy Center opening night",
+        "url": "https://www.foxnews.com/politics/trump-melania-headline-power-player-packed-kennedy-center-opening-night",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "[ASP]Trump[ASP] WARNS COURT RULING AGAINST TARIFFS COULD LEAD TO 'ECONOMIC RUINATION' OF US But longer term, the Trump White House must commit to eliminating our dependence on China for essential goods, which gives Beijing a stranglehold on our economy",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "long_text_limitation",
+      "confidence_score": 6,
+      "notes": "Entity: trump. Pos:2 Neg:0. Transition:True",
+      "source_article": {
+        "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
+        "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "\" In addition to North Carolina making moves to roll back DEI, which have seemingly been unsuccessful, the [ASP]Trump[ASP] administration has made efforts to roll back DEI on the federal level and tell universities that accept federal funding that they must stop promoting the agenda",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "trump_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: trump. Pos:3 Neg:0. Transition:False",
+      "source_article": {
+        "title": "'Love breaking rules': Red state dean ousted after admitting on hidden cam she was secretly pushing DEI",
+        "url": "https://www.foxnews.com/politics/love-breaking-rules-red-state-dean-ousted-after-admitting-hidden-cam-secretly-pushing-dei",
+        "source": "Fox News"
+      }
+    }
+  ],
+  "cnn_examples": [
+    {
+      "text": "Elon Musk on Tuesday lashed out at President Donald [ASP]Trump[ASP]’s agenda bill — which the president is pressuring GOP senators to support — calling it a “disgusting abomination",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "trump_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: trump. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "Musk blasts Trump’s agenda bill as a ‘disgusting abomination,’ catching White House officials off guard",
+        "url": "https://www.cnn.com/2025/06/03/politics/elon-musk-trump-republican-bill",
+        "source": "CNN"
+      }
+    },
+    {
+      "text": "In a Truth Social post, [ASP]Trump[ASP] called Leo a “real ‘sleazebag’ … a bad person, who in his own way, probably hates America",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "trump_sentiment",
+      "confidence_score": 4,
+      "notes": "Entity: trump. Pos:0 Neg:2. Transition:False",
+      "source_article": {
+        "title": "Trump privately complains about Amy Coney Barrett and other Supreme Court justices he nominated",
+        "url": "https://www.cnn.com/2025/06/03/politics/amy-coney-barrett-justice-trump",
+        "source": "CNN"
+      }
+    },
+    {
+      "text": "In March, after Barrett voted against [ASP]Trump[ASP]’s plan to cut foreign aid, Trump declined to criticize her publicly, telling reporters at the time, “She’s a very good woman",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "trump_sentiment",
+      "confidence_score": 4,
+      "notes": "Entity: trump. Pos:2 Neg:0. Transition:False",
+      "source_article": {
+        "title": "Trump privately complains about Amy Coney Barrett and other Supreme Court justices he nominated",
+        "url": "https://www.cnn.com/2025/06/03/politics/amy-coney-barrett-justice-trump",
+        "source": "CNN"
+      }
+    }
+  ],
+  "total_examples": 6
+}

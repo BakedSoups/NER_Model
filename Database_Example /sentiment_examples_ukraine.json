@@ -1,0 +1,36 @@
+{
+  "target_entity": "Ukraine",
+  "cbs_examples": [],
+  "fox_examples": [
+    {
+      "text": "' The conflict underscores need for coordinated federal and private efforts to close gaps in homeland drone protection [ASP]Ukraine[ASP] reviews Russia's ceasefire terms after failed talks",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "ukraine_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Ukraine. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "Conflicts",
+        "url": "https://www.foxnews.com/category/world/conflicts",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "[ASP]Ukraine[ASP] SIGNS DEAL TO GIVE US ACCESS TO RARE MINERALS WITH TRUMP ADMIN 'COMMITTED TO A PEACE PROCESS': BESSENT Between January and March 2020, Chinese exports of critical medical goods to the US",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "ukraine_sentiment",
+      "confidence_score": 4,
+      "notes": "Entity: Ukraine. Pos:2 Neg:0. Transition:False",
+      "source_article": {
+        "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
+        "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
+        "source": "Fox News"
+      }
+    }
+  ],
+  "cnn_examples": [],
+  "total_examples": 3
+}
