@@ -3,6 +3,20 @@
   "cbs_examples": [],
   "fox_examples": [
     {
+      "text": "President Zelenskyy announces [ASP]Ukraine[ASP]'s successful test of the Long Neptune cruise missile, a 620-mile-range strike weapon, as Russia escalates attacks amid fragile ceasefire talks",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "ukraine_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Ukraine. Pos:3 Neg:0. Transition:False",
+      "source_article": {
+        "title": "Military Tech",
+        "url": "https://www.foxnews.com/category/tech/topics/military-tech",
+        "source": "Fox News"
+      }
+    },
+    {
       "text": "' The conflict underscores need for coordinated federal and private efforts to close gaps in homeland drone protection [ASP]Ukraine[ASP] reviews Russia's ceasefire terms after failed talks",
       "expected_sentiments": [
         "Negative"
@@ -17,20 +31,35 @@
       }
     },
     {
-      "text": "[ASP]Ukraine[ASP] SIGNS DEAL TO GIVE US ACCESS TO RARE MINERALS WITH TRUMP ADMIN 'COMMITTED TO A PEACE PROCESS': BESSENT Between January and March 2020, Chinese exports of critical medical goods to the U",
+      "text": "' The conflict underscores need for coordinated federal and private efforts to close gaps in homeland drone protection [ASP]Ukraine[ASP] reviews Russia's ceasefire terms after failed talks",
       "expected_sentiments": [
-        "Positive"
+        "Negative"
       ],
       "category": "ukraine_sentiment",
-      "confidence_score": 4,
-      "notes": "Entity: Ukraine. Pos:2 Neg:0. Transition:False",
+      "confidence_score": 6,
+      "notes": "Entity: Ukraine. Pos:0 Neg:3. Transition:False",
       "source_article": {
-        "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
-        "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
+        "title": "Ukraine",
+        "url": "https://www.foxnews.com/category/world/conflicts/ukraine",
         "source": "Fox News"
       }
     }
   ],
-  "cnn_examples": [],
-  "total_examples": 3
+  "cnn_examples": [
+    {
+      "text": "Russia stepped up its airborne attacks against [ASP]Ukraine[ASP] in the past few months after it successfully managed to scale up domestic production of its own version of the Iranian-made Shahed drones, the type used most frequently in these attacks",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "ukraine_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Ukraine. Pos:3 Neg:0. Transition:False",
+      "source_article": {
+        "title": "A Ukrainian firefighter rushed to the scene of a Russian drone attack. He found his wife, daughter and grandson dead",
+        "url": "https://www.cnn.com/2025/06/05/world/ukraine-firefighter-family-russia-attack-intl",
+        "source": "CNN"
+      }
+    }
+  ],
+  "total_examples": 4
 }

@@ -1,21 +1,22 @@
 {
-  "target_entity": "Trump",
-  "cbs_examples": [],
-  "fox_examples": [
+  "target_entity": "trump",
+  "cbs_examples": [
     {
-      "text": "(Getty Images) GRENELL DEVELOPING 'COMMON SENSE' PLAN TO TURN KENNEDY CENTER FINANCIALS AROUND \"I love the songs, I love the play,\" [ASP]Trump[ASP] told Fox News Digital Tuesday",
+      "text": "President [ASP]Trump[ASP] says he's in good shape regarding a trade deal after speaking with China's president",
       "expected_sentiments": [
         "Positive"
       ],
       "category": "trump_sentiment",
-      "confidence_score": 10,
-      "notes": "Entity: Trump. Pos:6 Neg:0. Transition:False",
+      "confidence_score": 4,
+      "notes": "Entity: trump. Pos:2 Neg:0. Transition:False",
       "source_article": {
-        "title": "Trump and Melania to headline power-player packed Kennedy Center opening night",
-        "url": "https://www.foxnews.com/politics/trump-melania-headline-power-player-packed-kennedy-center-opening-night",
-        "source": "Fox News"
+        "title": "CBS New York - Breaking News, Sports, Weather, Traffic and the Best of NY",
+        "url": "https://www.cbsnews.com/newyork/",
+        "source": "CBS News"
       }
-    },
+    }
+  ],
+  "fox_examples": [
     {
       "text": "[ASP]Trump[ASP] WARNS COURT RULING AGAINST TARIFFS COULD LEAD TO 'ECONOMIC RUINATION' OF US But longer term, the Trump White House must commit to eliminating our dependence on China for essential goods, which gives Beijing a stranglehold on our economy",
       "expected_sentiments": [
@@ -23,7 +24,7 @@
       ],
       "category": "long_text_limitation",
       "confidence_score": 6,
-      "notes": "Entity: Trump. Pos:2 Neg:0. Transition:True",
+      "notes": "Entity: trump. Pos:2 Neg:0. Transition:True",
       "source_article": {
         "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
         "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
@@ -37,57 +38,71 @@
       ],
       "category": "trump_sentiment",
       "confidence_score": 6,
-      "notes": "Entity: Trump. Pos:3 Neg:0. Transition:False",
+      "notes": "Entity: trump. Pos:3 Neg:0. Transition:False",
       "source_article": {
         "title": "'Love breaking rules': Red state dean ousted after admitting on hidden cam she was secretly pushing DEI",
         "url": "https://www.foxnews.com/politics/love-breaking-rules-red-state-dean-ousted-after-admitting-hidden-cam-secretly-pushing-dei",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "EXCLUSIVE: The left-wing \"climate cult,\" as one lawmaker put it, will have fewer avenues to throw roadblocks in front of domestic energy production and President Donald [ASP]Trump[ASP]'s efforts to obtain \"American energy dominance\" if a landmark effort between members of both the House and Senate is successful",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "trump_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: trump. Pos:3 Neg:0. Transition:False",
+      "source_article": {
+        "title": "‘Climate cult’ on notice as lawmakers push to let feds hop blue-state roadblocks to ‘US energy dominance'",
+        "url": "https://www.foxnews.com/politics/climate-cult-notice-lawmakers-push-let-feds-hop-blue-state-roadblocks-us-energy-dominance",
         "source": "Fox News"
       }
     }
   ],
   "cnn_examples": [
     {
-      "text": "Elon Musk on Tuesday lashed out at President Donald [ASP]Trump[ASP]’s agenda bill — which the president is pressuring GOP senators to support — calling it a “disgusting abomination",
-      "expected_sentiments": [
-        "Negative"
-      ],
-      "category": "trump_sentiment",
-      "confidence_score": 6,
-      "notes": "Entity: Trump. Pos:0 Neg:3. Transition:False",
-      "source_article": {
-        "title": "Musk blasts Trump’s agenda bill as a ‘disgusting abomination,’ catching White House officials off guard",
-        "url": "https://www.cnn.com/2025/06/03/politics/elon-musk-trump-republican-bill",
-        "source": "CNN"
-      }
-    },
-    {
-      "text": "In a Truth Social post, [ASP]Trump[ASP] called Leo a “real ‘sleazebag’ … a bad person, who in his own way, probably hates America",
-      "expected_sentiments": [
-        "Negative"
-      ],
-      "category": "trump_sentiment",
-      "confidence_score": 4,
-      "notes": "Entity: Trump. Pos:0 Neg:2. Transition:False",
-      "source_article": {
-        "title": "Trump privately complains about Amy Coney Barrett and other Supreme Court justices he nominated",
-        "url": "https://www.cnn.com/2025/06/03/politics/amy-coney-barrett-justice-trump",
-        "source": "CNN"
-      }
-    },
-    {
-      "text": "In March, after Barrett voted against [ASP]Trump[ASP]’s plan to cut foreign aid, Trump declined to criticize her publicly, telling reporters at the time, “She’s a very good woman",
+      "text": "Musk — who posted in February that “I love @realDonaldTrump as much as a straight man can love another man” — has harbored ill will about [ASP]Trump[ASP]’s signature domestic policy bill but has been hesitant to publicly say so",
       "expected_sentiments": [
         "Positive"
       ],
-      "category": "trump_sentiment",
-      "confidence_score": 4,
-      "notes": "Entity: Trump. Pos:2 Neg:0. Transition:False",
+      "category": "long_text_limitation",
+      "confidence_score": 12,
+      "notes": "Entity: trump. Pos:6 Neg:0. Transition:True",
       "source_article": {
-        "title": "Trump privately complains about Amy Coney Barrett and other Supreme Court justices he nominated",
-        "url": "https://www.cnn.com/2025/06/03/politics/amy-coney-barrett-justice-trump",
+        "title": "Has social media master Trump finally been outmatched by Elon Musk?",
+        "url": "https://www.cnn.com/2025/06/05/media/elon-musk-trump-truth-social-x-twitter-feud",
+        "source": "CNN"
+      }
+    },
+    {
+      "text": "), but ditch the MOUNTAIN of DISGUSTING PORK in the bill,” he posted on X shortly after [ASP]Trump[ASP]’s remarks",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "long_text_limitation",
+      "confidence_score": 8,
+      "notes": "Entity: trump. Pos:0 Neg:3. Transition:True",
+      "source_article": {
+        "title": "Why Tesla now needs the EV tax credit that Musk once said should go away",
+        "url": "https://www.cnn.com/2025/06/05/business/musk-trump-tesla-ev-tax-credit",
+        "source": "CNN"
+      }
+    },
+    {
+      "text": "” While President [ASP]Trump[ASP] eventually limited his 25% tariff to goods that don’t comply with the US’s current free trade agreement with Mexico and Canada, USMCA, the uncertainty around trade was motivation enough to start moving his supply chain",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "long_text_limitation",
+      "confidence_score": 6,
+      "notes": "Entity: trump. Pos:2 Neg:0. Transition:True",
+      "source_article": {
+        "title": "US companies are scrambling to move supply chains. This small island could be the answer",
+        "url": "https://www.cnn.com/2025/06/04/business/us-companies-manufacturing-dominican-republic",
         "source": "CNN"
       }
     }
   ],
-  "total_examples": 6
+  "total_examples": 7
 }

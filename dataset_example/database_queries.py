@@ -6,9 +6,9 @@ class DatabaseQueries:
         self.conn = duckdb.connect(db_path)
     
     def get_articles_mentioning_entity(self, source_name, entity, limit=50):
-        """Get ALL articles from source that mention the entity"""
+        """Get articles from source that mention the entity"""
         entity_lower = entity.lower()
-        
+
         query = """
         SELECT 
             sa.id,
@@ -27,35 +27,24 @@ class DatabaseQueries:
         ORDER BY sa.word_count DESC
         LIMIT ?
         """
-        
-        # Try different variations of the source name
-        source_patterns = [f"%{source_name}%", source_name]
-        if source_name.upper() == "CNN":
-            source_patterns.extend(["CNN", "%CNN%"])
-        elif "CBS" in source_name.upper():
-            source_patterns.extend(["CBS News", "%CBS%"])
-        elif "FOX" in source_name.upper():
-            source_patterns.extend(["Fox News", "%Fox%"])
-        
-        results = []
-        for pattern in source_patterns:
-            temp_results = self.conn.execute(query, [pattern, f"%{entity_lower}%", f"%{entity_lower}%", limit]).fetchall()
-            if temp_results:
-                results = temp_results
-                break
-        
-        articles = []
-        for row in results:
-            articles.append({
+
+        pattern = f"%{source_name}%"
+        results = self.conn.execute(query, [pattern, f"%{entity_lower}%", f"%{entity_lower}%", limit]).fetchall()
+
+        articles = [
+            {
                 'id': int(row[0]),
                 'title': row[1],
                 'content': row[2],
                 'word_count': row[3],
                 'url': row[4],
                 'source': row[5]
-            })
-        
+            }
+            for row in results
+        ]
+
         return articles
+
     
     def get_database_summary(self):
         """Get summary of all sources and articles"""

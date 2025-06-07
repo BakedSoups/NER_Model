@@ -1,0 +1,93 @@
+{
+  "target_entity": "Russia",
+  "cbs_examples": [],
+  "fox_examples": [
+    {
+      "text": "President Zelenskyy announces Ukraine's successful test of the Long Neptune cruise missile, a 620-mile-range strike weapon, as [ASP]Russia[ASP] escalates attacks amid fragile ceasefire talks",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "russia_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Russia. Pos:3 Neg:0. Transition:False",
+      "source_article": {
+        "title": "Military Tech",
+        "url": "https://www.foxnews.com/category/tech/topics/military-tech",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "' The conflict underscores need for coordinated federal and private efforts to close gaps in homeland drone protection Ukraine reviews [ASP]Russia[ASP]'s ceasefire terms after failed talks",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "russia_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Russia. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "Conflicts",
+        "url": "https://www.foxnews.com/category/world/conflicts",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "' The conflict underscores need for coordinated federal and private efforts to close gaps in homeland drone protection Ukraine reviews [ASP]Russia[ASP]'s ceasefire terms after failed talks",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "russia_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Russia. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "Ukraine",
+        "url": "https://www.foxnews.com/category/world/conflicts/ukraine",
+        "source": "Fox News"
+      }
+    }
+  ],
+  "cnn_examples": [
+    {
+      "text": "“A lot of the governments that are looking at Mongolia as an oasis of democracy between [ASP]Russia[ASP] and China, so they want to trust us, but at the same time, you have to show some accountability and stability for other governments to say, okay, Mongolia is getting better,” said Bolor",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "long_text_limitation",
+      "confidence_score": 6,
+      "notes": "Entity: Russia. Pos:2 Neg:0. Transition:True",
+      "source_article": {
+        "title": "How protests over designer handbags threw Mongolia into political crisis and sparked a prime minister’s resignation",
+        "url": "https://www.cnn.com/2025/06/02/asia/mongolia-political-crisis-protests-intl-hnk",
+        "source": "CNN"
+      }
+    },
+    {
+      "text": "He stopped short of promising new sanctions on [ASP]Russia[ASP] — something European leaders have been pressing him on for weeks — saying only he would know when the time is right, but that it hadn’t arrived yet",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "long_text_limitation",
+      "confidence_score": 6,
+      "notes": "Entity: Russia. Pos:2 Neg:0. Transition:True",
+      "source_article": {
+        "title": "Trump compares Ukraine-Russia war to kids’ brawl: ‘Sometimes you’re better off letting them fight’",
+        "url": "https://www.cnn.com/2025/06/05/politics/ukraine-war-trump-kids-fighting",
+        "source": "CNN"
+      }
+    },
+    {
+      "text": "[ASP]Russia[ASP] stepped up its airborne attacks against Ukraine in the past few months after it successfully managed to scale up domestic production of its own version of the Iranian-made Shahed drones, the type used most frequently in these attacks",
+      "expected_sentiments": [
+        "Positive"
+      ],
+      "category": "russia_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Russia. Pos:3 Neg:0. Transition:False",
+      "source_article": {
+        "title": "A Ukrainian firefighter rushed to the scene of a Russian drone attack. He found his wife, daughter and grandson dead",
+        "url": "https://www.cnn.com/2025/06/05/world/ukraine-firefighter-family-russia-attack-intl",
+        "source": "CNN"
+      }
+    }
+  ],
+  "total_examples": 6
+}

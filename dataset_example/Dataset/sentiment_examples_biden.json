@@ -1,0 +1,50 @@
+{
+  "target_entity": "Biden",
+  "cbs_examples": [],
+  "fox_examples": [
+    {
+      "text": "' CNN's Jake Tapper criticized the media for its attacks on Robert Hur and The Wall Street Journal last year to defend Joe [ASP]Biden[ASP] but failed to mention his own network's role in it",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "long_text_limitation",
+      "confidence_score": 8,
+      "notes": "Entity: Biden. Pos:0 Neg:3. Transition:True",
+      "source_article": {
+        "title": "Joe Biden",
+        "url": "https://www.foxnews.com/category/person/joe-biden",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "One of the most outrageous derelictions of Joe [ASP]Biden[ASP]’s presidency was not addressing that dangerous vulnerability",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "biden_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Biden. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "LIZ PEEK: Trump must stay strong, US reliance on Chinese minerals and drugs puts Americans at risk",
+        "url": "https://www.foxnews.com/opinion/liz-peek-trump-must-stay-strong-us-reliance-chinese-minerals-drugs-puts-americans-risk",
+        "source": "Fox News"
+      }
+    },
+    {
+      "text": "\"This tragedy is a sobering reminder of the consequences of the [ASP]Biden[ASP] administration's failed policies,\" White House press secretary Karoline Leavitt told reporters at a White House press briefing Tuesday",
+      "expected_sentiments": [
+        "Negative"
+      ],
+      "category": "biden_sentiment",
+      "confidence_score": 6,
+      "notes": "Entity: Biden. Pos:0 Neg:3. Transition:False",
+      "source_article": {
+        "title": "Boulder terror attack result of 'reckless Biden policies,' White House says",
+        "url": "https://www.foxnews.com/politics/boulder-terror-attack-result-reckless-biden-policies-white-house-says",
+        "source": "Fox News"
+      }
+    }
+  ],
+  "cnn_examples": [],
+  "total_examples": 3
+}
